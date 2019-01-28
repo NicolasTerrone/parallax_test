@@ -14,6 +14,7 @@
 		FADF615F21FF93CE008108AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADF615D21FF93CE008108AE /* LaunchScreen.storyboard */; };
 		FADF616A21FF97F1008108AE /* ParallaxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF616921FF97F1008108AE /* ParallaxCell.swift */; };
 		FADF616C21FF99E8008108AE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF616B21FF99E8008108AE /* Item.swift */; };
+		FADF616E21FF9BFA008108AE /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF616D21FF9BFA008108AE /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FADF616021FF93CE008108AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FADF616921FF97F1008108AE /* ParallaxCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCell.swift; sourceTree = "<group>"; };
 		FADF616B21FF99E8008108AE /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FADF616D21FF9BFA008108AE /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,9 @@
 		FADF615321FF93CB008108AE /* parallax_test */ = {
 			isa = PBXGroup;
 			children = (
+				FADF616621FF97B6008108AE /* Model */,
 				FADF616821FF97C5008108AE /* View */,
 				FADF616721FF97BE008108AE /* Controller */,
-				FADF616621FF97B6008108AE /* Model */,
 				FADF615421FF93CB008108AE /* AppDelegate.swift */,
 				FADF615821FF93CB008108AE /* Main.storyboard */,
 				FADF615B21FF93CE008108AE /* Assets.xcassets */,
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				FADF616B21FF99E8008108AE /* Item.swift */,
+				FADF616D21FF9BFA008108AE /* DataService.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				FADF616A21FF97F1008108AE /* ParallaxCell.swift in Sources */,
 				FADF615721FF93CB008108AE /* ListTableViewController.swift in Sources */,
 				FADF615521FF93CB008108AE /* AppDelegate.swift in Sources */,
+				FADF616E21FF9BFA008108AE /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
